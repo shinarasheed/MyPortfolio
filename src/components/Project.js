@@ -24,10 +24,10 @@ const Project = ({
           ))}
         </div>
         <div className="project-links">
-          <a href={githuburl}>
+          <a target="_blank" rel="noreferrer" href={githuburl}>
             <FaGithubSquare className="project-icon" />
           </a>
-          <a href={applicationurl}>
+          <a target="_blank" rel="noreferrer" href={applicationurl}>
             <FaShareSquare className="project-icon" />
           </a>
         </div>
