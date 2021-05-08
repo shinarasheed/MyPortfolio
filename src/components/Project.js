@@ -1,6 +1,6 @@
 import React from "react"
-import PropTypes from "prop-types"
-import Image from "gatsby-image"
+// import PropTypes from "prop-types"
+// import Image from "gatsby-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 const Project = ({
   description,
@@ -13,7 +13,7 @@ const Project = ({
 }) => {
   return (
     <article className="project">
-      <img src={banner.fluid.src} className="project-img" />
+      <img src={banner.fluid.src} className="project-img" alt={title} />
       <div className="project-info">
         <span className="project-number">0{index + 1}</span>
         <h3>{title}</h3>
@@ -27,7 +27,7 @@ const Project = ({
           <a href={githuburl}>
             <FaGithubSquare className="project-icon" />
           </a>
-          <a href={githuburl}>
+          <a href={applicationurl}>
             <FaShareSquare className="project-icon" />
           </a>
         </div>
@@ -36,6 +36,6 @@ const Project = ({
   )
 }
 
-Project.propTypes = {}
+// Project.propTypes = {}
 
 export default Project
