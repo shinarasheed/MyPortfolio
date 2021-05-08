@@ -2,10 +2,40 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Projects from "../components/Projects"
-// ...GatsbyImageSharpFluid
 
-const ProjectsPage = () => {
-  return <h2>projects page</h2>
+const ProjectsPage = ({
+  data: {
+    allContentfulProject: { nodes: projects },
+  },
+}) => {
+  return (
+    <Layout>
+      <section className="projects-page">
+        <Projects projects={projects} title="all projects" />
+      </section>
+    </Layout>
+  )
 }
+
+export const query = graphql`
+  {
+    allContentfulProject {
+      nodes {
+        title
+        githuburl
+        applicationurl
+        stack
+        description {
+          description
+        }
+        banner {
+          fluid {
+            src
+          }
+        }
+      }
+    }
+  }
+`
 
 export default ProjectsPage
