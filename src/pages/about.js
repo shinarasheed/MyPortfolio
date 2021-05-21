@@ -42,7 +42,7 @@ export const query = graphql`
         stack
         image {
           fluid {
-            ...GatsbyContentfulFluid
+            ...GatsbyContentfulFluid_withWebp
           }
         }
       }
