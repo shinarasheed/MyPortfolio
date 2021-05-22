@@ -8,7 +8,7 @@ const data = [
   },
   {
     id: 2,
-    text: "about",
+    text: "about me",
     url: "/about",
   },
   {
