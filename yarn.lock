@@ -6147,6 +6147,13 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
 
+"gatsby-plugin-remove-trailing-slashes@^3.5.0":
+  "integrity" "sha512-5OKs8XVfyz1U/T0Byj7yHJX/KJq3sfYliMPgVfl8p4AJRtkCpSpJTgSmFLxoqIPhl1eMYXc4z1sHWsx+1nzBqQ=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-remove-trailing-slashes/-/gatsby-plugin-remove-trailing-slashes-3.5.0.tgz"
+  "version" "3.5.0"
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
 "gatsby-plugin-sharp@^3.0.0-next.0", "gatsby-plugin-sharp@^3.4.1":
   "integrity" "sha512-zPVe3s0NivQ8MwmujUUGZwyX1MhgBn3Zm0x8CtvLWEPGN9lqoqt+xKglkeRr7qmBEZJOMyge+viKPQyJPQOyDg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.4.1.tgz"
