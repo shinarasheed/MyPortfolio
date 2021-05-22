@@ -27,18 +27,20 @@ export const query = graphql`
   {
     allContentfulProject {
       nodes {
+        contentful_id
         title
-        githuburl
-        applicationurl
-        stack
         description {
           description
         }
+        githuburl
+        applicationurl
+        stack
         banner {
-          fluid {
-            src
+          fluid(maxWidth: 2000) {
+            ...GatsbyContentfulFluid_withWebp
           }
         }
+        createdAt
       }
     }
   }

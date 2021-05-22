@@ -12,9 +12,10 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-image`,
     `gatsby-plugin-image`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-playground`,
     {
       resolve: `gatsby-source-filesystem`,
