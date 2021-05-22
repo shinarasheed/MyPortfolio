@@ -13,7 +13,7 @@ const indexPage = ({ data }) => {
   } = data
   return (
     <Layout>
-      <SeoComponent title />
+      <SeoComponent title="Home" />
       <Hero />
       <Services />
       <Jobs />
