@@ -5,7 +5,7 @@ import Hero from "../components/Hero"
 import Services from "../components/Services"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
-import SEO from "../components/SEO"
+import SeoComponent from "../components/SEO"
 
 const indexPage = ({ data }) => {
   const {
@@ -13,7 +13,7 @@ const indexPage = ({ data }) => {
   } = data
   return (
     <Layout>
-      <SEO title="Home" />
+      <SeoComponent title />
       <Hero />
       <Services />
       <Jobs />
