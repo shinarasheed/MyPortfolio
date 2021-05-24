@@ -6200,6 +6200,14 @@
   dependencies:
     "joi" "^17.2.1"
 
+"gatsby-plugin-web-font-loader@^1.0.4":
+  "integrity" "sha512-3c39bX9CcsYJQFhhmTyjuMJSqpld2rX+HsTOxP9k1PKFR4Rvo3lpzBW4d1tVpmUesR8BNL6u9eHT7/XksS1iog=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-web-font-loader/-/gatsby-plugin-web-font-loader-1.0.4.tgz"
+  "version" "1.0.4"
+  dependencies:
+    "babel-runtime" "^6.26.0"
+    "webfontloader" "^1.6.28"
+
 "gatsby-react-router-scroll@^4.5.0":
   "integrity" "sha512-iE58ZuyMpgfaeuzkcR5P3y6RKYRPfGYYkIeYnXDJ2fwYNpKzPOcf0kPH12fBtb2ZKjHMy4ZmyqHppKqClvu0GQ=="
   "resolved" "https://registry.npmjs.org/gatsby-react-router-scroll/-/gatsby-react-router-scroll-4.5.0.tgz"
@@ -13342,6 +13350,11 @@
   "version" "1.7.3"
   dependencies:
     "minimalistic-assert" "^1.0.0"
+
+"webfontloader@^1.6.28":
+  "integrity" "sha1-23hhKSU8tujq5UwvsF+HCvZnW64="
+  "resolved" "https://registry.npmjs.org/webfontloader/-/webfontloader-1.6.28.tgz"
+  "version" "1.6.28"
 
 "webpack-assets-manifest@^5.0.1":
   "integrity" "sha512-CW94ylPHurZTmxnYajSFA8763Cv/QFIKNgBwqBLaIOnBjH1EbDUAf8Eq1/i+o8qaKyKXJ3aX7r4/jtpXD88ldg=="
