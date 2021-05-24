@@ -612,6 +612,7 @@ Jobs
   .btn-container {
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
   }
   .job-btn {
     margin-bottom: 1rem;
