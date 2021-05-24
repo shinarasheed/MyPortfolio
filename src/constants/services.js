@@ -17,7 +17,7 @@ const services = [
     id: 3,
     icon: <FaAndroid className="service-icon" />,
     title: "api design and development",
-    text: `I have experience modeling databases, design and developing maintainable and scalabe api with nodejs using the rest architecture and with graphql. I work well with mongodb, postgrelsql and mysql.`,
+    text: `I have experience modeling databases, designing and developing maintainable and scalabe api with nodejs using the rest architecture and with graphql. I work well with mongodb, postgrelsql and mysql.`,
   },
 ]
 export default services
