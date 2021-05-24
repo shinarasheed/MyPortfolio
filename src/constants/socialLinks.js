@@ -15,7 +15,7 @@ const data = [
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.linkedin.com/in/rasheedshina",
+    url: "https://www.linkedin.com",
   },
   {
     id: 3,
