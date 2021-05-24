@@ -450,7 +450,7 @@ Hero
     left: 65%;
     right: 0;
     bottom: 0;
-    background: var(--clr-white);
+    /* background: var(--clr-white); */
   }
   .hero-center {
     grid-template-columns: repeat(12, 1fr);
