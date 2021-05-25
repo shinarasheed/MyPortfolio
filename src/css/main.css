@@ -696,6 +696,7 @@ Projects
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.85rem;
+  margin-bottom: 0.5rem;
 }
 .about-stack span {
   margin-top: 0.5rem;
