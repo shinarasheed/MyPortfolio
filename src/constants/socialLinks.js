@@ -15,7 +15,7 @@ const data = [
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/rasheedshina",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const data = [
   {
     id: 4,
     icon: <FaGithubSquare className="social-icon"></FaGithubSquare>,
-    url: "https://github.com/rasheedshina22",
+    url: "https://github.com/shinarasheed",
   },
 ]
 const links = data.map(link => {

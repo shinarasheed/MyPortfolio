@@ -30,7 +30,7 @@ const Hero = () => {
             <h4>I’m a Full Stack, JAMSTACK developer </h4>
             <h4>specialized in the development of web</h4>
             <h4>and mobile applications using React.js,</h4>
-            <h4> Next.js, Gatsby.js, Node.js, React Native</h4>
+            <h4> Next.js, Node.js, GraphQL, React Native</h4>
             <h4>&amp; more</h4>
             <Link to="/aboutme" className="btn">
               Find Out More
