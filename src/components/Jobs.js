@@ -14,7 +14,8 @@ const Jobs = () => {
           company
           position
           description
-          date
+          startDate
+          endDate
           contentful_id
         }
       }
@@ -23,7 +24,7 @@ const Jobs = () => {
 
   const [value, setValue] = useState(0)
 
-  const { company, position, description, date } = jobs[value]
+  const { company, position, description, startDate, endDate } = jobs[value]
 
   return (
     <section className="section jobs">
@@ -47,7 +48,16 @@ const Jobs = () => {
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>
-          <p className="job-date">{date}</p>
+          <div style={{ display: "flex" }}>
+            <p style={{ marginRight: "10px" }} className="job-date">
+              {startDate.substring(0, 7)} -
+            </p>
+            {endDate ? (
+              <p className="job-date">{endDate.substring(0, 7)}</p>
+            ) : (
+              <p>present</p>
+            )}
+          </div>
 
           {description.map((desc, index) => {
             return (
