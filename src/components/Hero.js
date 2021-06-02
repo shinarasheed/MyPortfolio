@@ -27,11 +27,10 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h1>I'm Shina</h1>
-            <h4>I’m a Full Stack, JAMSTACK developer </h4>
-            <h4>specialized in the development of web</h4>
-            <h4>and mobile applications using React.js,</h4>
-            <h4> Next.js, Node.js, GraphQL, React Native</h4>
-            <h4>&amp; more</h4>
+            <h4>I’m a Full Stack developer specialized </h4>
+            <h4>in the development of web and mobile</h4>
+            <h4>applications using React.js, Next.js, </h4>
+            <h4>Node.js, GraphQL, React Native &amp; more</h4>
             <Link to="/aboutme" className="btn">
               Find Out More
             </Link>

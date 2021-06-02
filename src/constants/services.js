@@ -5,7 +5,7 @@ const services = [
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `I have more than 3 years of developing client facing web applications of various sizes and complexity using tools in javaScript and PHP ecosystem`,
+    text: `I have more than 3 years of developing client facing web applications of various sizes and complexity using tools in the javaScript and PHP ecosystem`,
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const services = [
     id: 3,
     icon: <FaAndroid className="service-icon" />,
     title: "api design and development",
-    text: `I have experience modeling databases, designing and developing maintainable and scalabe api with nodejs using the rest architecture and with graphql. I work well with mongodb, postgrelsql and mysql.`,
+    text: `I have experience modeling databases, designing and developing maintainable and scalabe api with nodejs using the rest architecture and with graphql. I'm very comfortable with mongodb, postgrelsql and mysql, redis and other technologies.`,
   },
 ]
 export default services
