@@ -27,7 +27,7 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h1>I'm Shina</h1>
-            <h4>I’m a Full Stack developer specialized </h4>
+            <h4>I’m a Full Stack Developer specialized </h4>
             <h4>in the development of web and mobile</h4>
             <h4>applications using React.js, Next.js</h4>
             <h4>Node.js, GraphQL, React Native &amp; more</h4>
