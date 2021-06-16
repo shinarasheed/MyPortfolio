@@ -14,8 +14,8 @@ const Jobs = () => {
           company
           position
           description
-          startDate
-          endDate
+          startDate(formatString: "MMMM YYYY")
+          endDate(formatString: "MMMM YYYY")
           contentful_id
         }
       }
@@ -50,10 +50,10 @@ const Jobs = () => {
           <h4>{company}</h4>
           <div style={{ display: "flex" }}>
             <p style={{ marginRight: "10px" }} className="job-date">
-              {startDate.substring(0, 7)} -
+              {startDate} -
             </p>
-            {endDate ? (
-              <p className="job-date">{endDate.substring(0, 7)}</p>
+            {endDate !== null ? (
+              <p className="job-date">{endDate}</p>
             ) : (
               <p>present</p>
             )}
