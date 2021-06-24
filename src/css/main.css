@@ -70,6 +70,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
   margin-top: 5rem;
+  font-display: auto;
 }
 ul {
   list-style-type: none;
