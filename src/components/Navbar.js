@@ -9,7 +9,7 @@ const Navbar = ({ toggleSidebar }) => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img style={{ width: "40px", height:"40px" }} src={logo} alt="logo" />
+            <img style={{ width: "40px" }} src={logo} alt="logo" />
           </Link>
           <button onClick={toggleSidebar} type="button" className="toggle-btn">
             <FaAlignRight />
