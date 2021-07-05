@@ -435,8 +435,7 @@ Hero
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
-
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 .hero-icons {
   justify-items: flex-start;
@@ -460,7 +459,7 @@ Hero
   }
 
   .hero h4 {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
   .hero-info {
     grid-row: 1/1;
@@ -474,7 +473,7 @@ Hero
 }
 @media screen and (min-width: 1170px) {
   .hero h4 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .hero-info {
