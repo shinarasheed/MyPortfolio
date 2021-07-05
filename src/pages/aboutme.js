@@ -10,7 +10,7 @@ const About = ({
     allContentfulAbout: { nodes },
   },
 }) => {
-  const { title, description, stack, image } = nodes[0]
+  const { title, stack, image } = nodes[0]
   return (
     <Layout>
       <SeoComponent title="About" />
@@ -19,7 +19,39 @@ const About = ({
           <Image fluid={image.fluid} className="about-img" />
           <article className="about-text">
             <Title title={title} />
-            <p>{description.description}</p>
+            {/* <p>{description.description}</p> */}
+            <div>
+              <p>
+                I am a Full-Stack Web Application developer with a passion for
+                web technologies. I write robust, clean, re-usable and
+                maintainable code and create fast, user friendly and scalable
+                web applications.
+              </p>
+              <p>
+                This also means I strive to follow best practices and use
+                industry-standard tools, including <span>git-workflow</span>,
+                Test Driven Development <span> (Mocha, Chai, Sinon),</span>{" "}
+                Continous Integration{" "}
+                <span>
+                  (Travis-CI, AWS codepipeline, Coveralls, Codeclimate, Hound),
+                </span>
+                linting <span>(ESLint, Prettier),</span> package management{" "}
+                <span>(Yarn, NPM)</span>, and modern build tools{" "}
+                <span>(Webpack, Babel)</span> . I also love working with
+                anything <span>JAMSTACK</span>.
+              </p>
+              <p>
+                I have over 2 years professional experience working for a
+                startup and other companies. I have also worked for clients of
+                various sizes as a Freelancer.
+              </p>
+
+              <p>
+                When not working on a project or thinking about programming, I'm
+                most likely seeing a movie, jogging, watching Chelsea F.C play
+                football, or spending time with family and friends.
+              </p>
+            </div>
             <div className="about-stack">
               {stack.map((stack, index) => (
                 <span key={index}>{stack}</span>

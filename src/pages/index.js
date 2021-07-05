@@ -26,7 +26,7 @@ export default indexPage
 
 export const query = graphql`
   {
-    allContentfulProject {
+    allContentfulProject(filter: { featured: { eq: true } }) {
       nodes {
         contentful_id
         title

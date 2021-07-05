@@ -9,7 +9,7 @@ const Jobs = () => {
     allContentfulExperience: { nodes: jobs },
   } = useStaticQuery(graphql`
     {
-      allContentfulExperience {
+      allContentfulExperience(sort: { fields: startDate, order: ASC }) {
         nodes {
           company
           position

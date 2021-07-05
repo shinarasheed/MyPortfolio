@@ -912,6 +912,11 @@ About Page
 }
 .about-text p {
   line-height: 2;
+  margin-bottom: 0;
+}
+
+.about-text span {
+  font-weight: bold;
 }
 .stack-container {
   width: 30rem;
