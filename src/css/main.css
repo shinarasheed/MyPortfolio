@@ -435,7 +435,7 @@ Hero
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
-  font-size: 0.7rem;
+  font-size: 10px;
 }
 .hero-icons {
   justify-items: flex-start;
