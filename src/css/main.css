@@ -558,14 +558,14 @@ Jobs
 }
 .job-btn {
   background: transparent;
-  border-color: transparent;
+  border: none;
   text-transform: capitalize;
   font-size: 1.25rem;
   letter-spacing: var(--spacing);
   margin: 0 0.5rem;
   transition: var(--transition);
   cursor: pointer;
-  padding: 0.25rem 0;
+  padding: 0.25rem 0 0 0.2rem;
   line-height: 1;
 }
 .job-btn:not(:last-child) {
