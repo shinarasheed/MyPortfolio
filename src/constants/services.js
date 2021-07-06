@@ -11,7 +11,7 @@ const services = [
     id: 2,
     icon: <FaSketch className="service-icon" />,
     title: "mobile app development",
-    text: `I have experience developing mobile apps with React Native. I choosed to use React Native because of it’s Learn one, write everywhere nature and the robust community around it`,
+    text: `I also develop apps with React Native. React Native was no-brainer for me due to my web background, it’s Learn one, write everywhere nature and the robust community around it`,
   },
   {
     id: 3,
