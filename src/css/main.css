@@ -551,9 +551,10 @@ Jobs
 }
 .btn-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  margin-bottom: 4rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
 }
 .job-btn {
   background: transparent;
@@ -566,6 +567,9 @@ Jobs
   cursor: pointer;
   padding: 0.25rem 0;
   line-height: 1;
+}
+.job-btn:not(:last-child) {
+  margin-bottom: 0.5rem;
 }
 .job-btn:hover {
   color: var(--clr-primary-5);
