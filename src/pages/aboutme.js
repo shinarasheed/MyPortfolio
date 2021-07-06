@@ -47,6 +47,13 @@ const About = ({
               </p>
 
               <p>
+                I also enjoy learning lots of stuff, I am currently learning{" "}
+                <span>PYTHON</span> and plans to checkout <span>FLUTTER</span>{" "}
+                and <span>Golang </span>
+                in the nearest future
+              </p>
+
+              <p>
                 When not working on a project or thinking about programming, I'm
                 most likely seeing a movie, jogging, watching Chelsea F.C play
                 football, or spending time with family and friends.
