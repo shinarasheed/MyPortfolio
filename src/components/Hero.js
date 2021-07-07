@@ -29,8 +29,8 @@ const Hero = () => {
             <h1>I'm Shina</h1>
             <h4>I’m a Full Stack Software Engineer skilled</h4>
             <h4>in the development of web and mobile</h4>
-            <h4>applications using React.js, Next.js</h4>
-            <h4>Node.js, GraphQL, React Native &amp; more</h4>
+            <h4>applications using Reactjs, Nextjs</h4>
+            <h4>Nodejs, GraphQL, React Native &amp; more</h4>
             <Link to="/aboutme" className="btn">
               Find Out More
             </Link>
