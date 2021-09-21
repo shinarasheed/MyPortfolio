@@ -41,9 +41,9 @@ const About = ({
                 anything <span>JAMSTACK</span>.
               </p>
               <p>
-                I have over 2 years professional experience working for a
-                startup and other companies. I have also worked for clients of
-                various sizes as a Freelancer.
+                I have 4 years experience during which I have work for a software development academy
+                as an instructor, a website development company, a sports tech startup and as a Freelancer
+                for clients in the Oil and Gas, Marine Security and Financial Sectors. 
               </p>
 
               <p>
