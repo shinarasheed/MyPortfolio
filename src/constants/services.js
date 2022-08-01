@@ -5,7 +5,7 @@ const services = [
     id: 1,
     icon: <FaCode className="service-icon" />,
     title: "web development",
-    text: `I have more than 2 years experience developing client facing web applications of various sizes and complexity using tools in the javaScript and PHP ecosystem`,
+    text: `I have 4 years experience developing client facing web applications of various sizes and complexity using tools in the javaScript and PHP ecosystem`,
   },
   {
     id: 2,
